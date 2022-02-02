@@ -1,0 +1,78 @@
+dictionary = {
+    ["DictKey_ActionText_10501"] = "return false -- scripts",
+    ["DictKey_ActionText_10502"] = "return false -- config",
+    ["DictKey_ActionText_10601"] = "return VEAF_DYNAMIC_PATH~=nil",
+    ["DictKey_ActionText_10701"] = "return VEAF_DYNAMIC_PATH==nil",
+    ["DictKey_ActionText_10801"] = "return VEAF_DYNAMIC_MISSIONPATH~=nil",
+    ["DictKey_ActionText_10901"] = "return VEAF_DYNAMIC_MISSIONPATH==nil",
+    ["DictKey_descriptionBlueTask_3"] = "",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_descriptionRedTask_2"] = "",
+    ["DictKey_descriptionText_1"] = "Opération Clear Field Escaliation Revisité\
+\
+L'Abzkhazie et l'Ossétie du Sud ont entamé une guerre avec la Géorgie soutenue par les Russes. La Géorgie, soutenue par les Etats-Unis et ses alliés, s'apprête à leur faire totalement regretter cette décision.\
+\
+L'opération Clear Field Escalade est sur le point de commencer...\
+\
+Phase 1 - Sécuriser la Géorgie\
+\
+Capturez et maintenez les bases aériennes de Géorgie. Protégez nos transports alors qu'ils déploient des troupes dans la région.\
+\
+Phase 2 - Sécuriser l'Abzkhazie et l'Ossétie du Sud\
+\
+Capturez et maintenez les bases aériennes d'Abzkhazie. Levez le siège de Gori et écrasez les agresseurs sud-ossètes.\
+\
+Phase 3 - Invasion du kraï de Stavropol\
+\
+Capturez et maintenez les bases aériennes de la région de Stavropol Krai\
+\
+Phase 4 - Invasion du kraï de Krasnodar\
+\
+Capturez et maintenez les bases aériennes de la région de Krasnodar Krai\
+\
+Actifs tactiques comme suit...\
+\
+AWACS\
+\
+Darkstar - E-3A\
+Frequency: 282.2.000 AM\
+\
+Carrier Strike Group\
+\
+CVN-72 Abraham Lincoln\
+Frequency: 227.000 AM\
+TCN: 12X\
+ICLS: 7\
+\
+LHA-1 Tarawa\
+Frequency: 226.000 AM\
+TCN: 11X\
+ICLS: 8\
+\
+Refuelling\
+\
+Texaco - KC-135MPRS\
+Frequency: 290.1 AM\
+TCN: 60Y\
+\
+Shell - KC-135\
+Frequency: 290.3  AM\
+TCN: 63Y\
+\
+Arco - S-3B\
+Frequency: 290.5 MHz AM\
+TCN: 64Y\
+\
+Aerial JTAC\
+\
+Pontiac-9-1 - MQ-9 Reaper Aerial Drone\
+Frequency: 272 Mhz AM\
+\
+FARPS\
+\
+London: 101 MHz AM\
+Paris: 102 MHz AM\
+\
+Be Advised Bullseye Calls Are Referencing Zugdidi.",
+    ["DictKey_sortie_5"] = "CF-2 by Sharko",
+} -- end of dictionary
