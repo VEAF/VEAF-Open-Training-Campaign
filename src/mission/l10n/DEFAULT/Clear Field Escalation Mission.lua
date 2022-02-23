@@ -192,7 +192,7 @@ function SEF_InitializeMissionTable()
 	OperationClearFieldMkII_AG[2] = {				
 		TargetName = "Adygeysk - SA-15",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-15 Located At Adygeysk\nKrasnodar-Pashkovsky Sector - Grid EK17",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy 2 SA-15 Located At Adygeysk\nKrasnodar-Pashkovsky Sector - Grid EK16 EK27",
 	}
 	OperationClearFieldMkII_AG[3] = {				
 		TargetName = "Adygeysk - SA-2",
@@ -209,15 +209,10 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-10 Site Located At Adzhapsha\nGudauta Sector - Grid FH47",
 	}
-	OperationClearFieldMkII_AG[6] = {				
-		TargetName = "Anapskaya - SA-10",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-10 Site Located At Anapskaya\nAnapa-Vityazevo Sector - Grid CK77",
-	}
 	OperationClearFieldMkII_AG[7] = {				
-		TargetName = "Baksan - SA-2",
+		TargetName = "Nartan - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Baksan\nNalchik Sector - Grid LP63",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Nartan\nNalchik Sector - Grid LP92",
 	}
 	OperationClearFieldMkII_AG[8] = {				
 		TargetName = "Beslan - AAA",
@@ -240,54 +235,19 @@ function SEF_InitializeMissionTable()
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Beslan\nBeslan Sector - Grid MN68",
 	}
 	OperationClearFieldMkII_AG[12] = {				
-		TargetName = "Chernigovskoe - SA-2",
+		TargetName = "Pervomayskiy - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Chernigovskoe\nMaykop-Khanskaya Sector - Grid EK50",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Pervomayskiy\nMaykop-Khanskaya Sector - Grid EK91",
 	}
 	OperationClearFieldMkII_AG[13] = {				
-		TargetName = "Chikola SA-2",
+		TargetName = "Nart - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Chikola\nBeslan Sector - Grid MN28",
-	}
-	OperationClearFieldMkII_AG[14] = {				
-		TargetName = "Chuburhindzhi - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets At Chuburhindzhi\nZugdidi Sector - Grid GH31",
-	}
-	OperationClearFieldMkII_AG[15] = {				
-		TargetName = "Chuburhindzhi - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Armored Vehicles Located At Chuburhindzhi\nZugdidi Sector - Grid GH31",
-	}
-	OperationClearFieldMkII_AG[16] = {				
-		TargetName = "Chuburhindzhi - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artillery Assets Located At Chuburhindzhi\nZugdidi Sector - Grid GH31",
-	}
-	OperationClearFieldMkII_AG[17] = {				
-		TargetName = "Chuburhindzhi - SA-8",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-8 Located At Chuburhindzhi\nZugdidi Sector - Grid GH31",
-	}
-	OperationClearFieldMkII_AG[18] = {				
-		TargetName = "Chuburhindzhi - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Chuburhindzhi\nZugdidi Sector - Grid GH31",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Nart\nBeslan Sector - Grid MN57",
 	}
 	OperationClearFieldMkII_AG[19] = {				
 		TargetName = "CV 1143.5 Admiral Kuznetsov",
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Sink The Black Sea Fleet!\nNovorossiysk Sector - Grid CK93",
-	}
-	OperationClearFieldMkII_AG[20] = {				
-		TargetName = "Dagomys - SA-11",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-11 Site Located At Dagomys\nSochi-Adler Sector - Grid EJ53",
-	}
-	OperationClearFieldMkII_AG[21] = {				
-		TargetName = "Dzhubga - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Dzhubga\nGelendzhik Sector - Grid DK70",
 	}
 	OperationClearFieldMkII_AG[22] = {				
 		TargetName = "Enguri Dam - SA-18",
@@ -299,50 +259,15 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At The Enguri Dam\nZugdidi Sector - Grid KN53",
 	}
-	OperationClearFieldMkII_AG[24] = {				
-		TargetName = "Gali - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Armored Vehicles Located At Gali\nZugdidi Sector - Grid GH22",
-	}
-	OperationClearFieldMkII_AG[25] = {				
-		TargetName = "Gali - Infantry",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Infantry Located At Gali\nZugdidi Sector - Grid GH22",
-	}
-	OperationClearFieldMkII_AG[26] = {				
-		TargetName = "Gali - Military Barracks",
-		TargetStatic = true,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Military Barracks Located At Gali\nZugdidi Sector - Grid GH22",
-	}
-	OperationClearFieldMkII_AG[27] = {				
-		TargetName = "Gali - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Gali\nZugdidi Sector - Grid GH22",
-	}
 	OperationClearFieldMkII_AG[28] = {				
 		TargetName = "Gelendzhik - AAA",
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Gelendzhik\nGelendzhik Sector - Grid DK23",
 	}
-	OperationClearFieldMkII_AG[29] = {				
-		TargetName = "Gelendzhik - EWR East",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Eastern Early Warning Radar Located At Gelendzhik\nGelendzhik Sector - Grid DK14",
-	}
-	OperationClearFieldMkII_AG[30] = {				
-		TargetName = "Gelendzhik - EWR West",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Western Early Warning Radar Located At Gelendzhik\nGelendzhik Sector - Grid DK14",
-	}
 	OperationClearFieldMkII_AG[31] = {				
-		TargetName = "Gelendzhik - SA-10",
+		TargetName = "Gelendhzik - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-10 Site Located At Gelendzhik\nGelendzhik Sector - Grid DK23",
-	}
-	OperationClearFieldMkII_AG[32] = {				
-		TargetName = "Glebovskoe - SA-3",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-3 Site Located South Of Glebovskoe\nNovorossiysk Sector - Grid CK94",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Gelendzhik\nGelendzhik Sector - Grid DK23",
 	}
 	OperationClearFieldMkII_AG[33] = {				
 		TargetName = "Gori - AAA",
@@ -379,50 +304,25 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Gudauta\nGudauta Sector - Grid FH27",
 	}
-	OperationClearFieldMkII_AG[40] = {				
-		TargetName = "Gudauta - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Gudauta\nGudauta Sector - Grid FH27",
-	}
 	OperationClearFieldMkII_AG[41] = {				
 		TargetName = "Gudauta - Navy",
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Naval Warships Patrolling The Coast Near Gudauta\nGudauta Sector - Grid EH97",
 	}
 	OperationClearFieldMkII_AG[42] = {				
-		TargetName = "Gudauta - SA-2",
+		TargetName = "Gudauta - SA-6",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Gudauta\nGudauta Sector - Grid FH37",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-6 Site Located At Gudauta\nGudauta Sector - Grid FH27",
 	}
 	OperationClearFieldMkII_AG[43] = {				
-		TargetName = "Gulripshi - SA-10",
+		TargetName = "Mozdok - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-10 Site Located At Gulripshi\nSukhumi-Babushara Sector - Grid FH75",
-	}
-	OperationClearFieldMkII_AG[44] = {				
-		TargetName = "Gvandra - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Gvandra\nZemo-Azhara Sector - Grid GH37",
-	}
-	OperationClearFieldMkII_AG[45] = {				
-		TargetName = "Gvandra - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Gvandra\nZemo-Azhara Sector - Grid GH37",
-	}
-	OperationClearFieldMkII_AG[46] = {				
-		TargetName = "Gvandra - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artiller Assets Located At Gvandra\nZemo-Azhara Sector - Grid GH37",
-	}
-	OperationClearFieldMkII_AG[47] = {				
-		TargetName = "Gvandra - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Gvandra\nZemo-Azhara Sector - Grid GH37",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Mozdok\nMozdok Sector - Grid MP54",
 	}
 	OperationClearFieldMkII_AG[48] = {				
-		TargetName = "Kirovo - SA-2",
+		TargetName = "Mozdok - SA-6",  
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Kirovo\nBeslan Sector - Grid MN57",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-6 Site Located At Mozdok\nMozdok Sector - Grid MP63",
 	}
 	OperationClearFieldMkII_AG[49] = {				
 		TargetName = "Krasnodar Center - AAA",
@@ -464,50 +364,10 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Krasnodar Pashkovsky\nKrasnodar-Pashkovsky Sector - Grid EK18",
 	}
-	OperationClearFieldMkII_AG[57] = {				
-		TargetName = "Krymsk - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Krymsk\nKrymsk Sector - Grid DK17/28",
-	}
-	OperationClearFieldMkII_AG[58] = {				
-		TargetName = "Krymsk - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Krymsk\nKrymsk Sector - Grid DK17/28",
-	}
-	OperationClearFieldMkII_AG[59] = {				
-		TargetName = "Krymsk - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Krymsk\nKrymsk Sector - Grid DK28",
-	}
-	OperationClearFieldMkII_AG[60] = {				
-		TargetName = "Krymsk - SA-15",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-15 Located At Krymsk\nKrymsk Sector - Grid DK27",
-	}
-	OperationClearFieldMkII_AG[61] = {				
-		TargetName = "Krymsk - SA-2",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Krymsk\nKrymsk Sector - Grid DK17",
-	}
-	OperationClearFieldMkII_AG[62] = {				
-		TargetName = "Krymsk - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Krymsk\nKrymsk Sector - Grid DK27/28",
-	}
 	OperationClearFieldMkII_AG[63] = {				
-		TargetName = "Leselidze - SA-2",
+		TargetName = "Leselidze - SA-2", 
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Leselidze\nSochi-Adler Sector - Grid EJ80",
-	}
-	OperationClearFieldMkII_AG[64] = {				
-		TargetName = "Magri - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Magri\nSochi-Adler Sector - Grid EJ17",
-	}
-	OperationClearFieldMkII_AG[65] = {				
-		TargetName = "Maykop - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Maykop Khanskaya\nMaykop-Khanskaya Sector - Grid EK84",
 	}
 	OperationClearFieldMkII_AG[66] = {				
 		TargetName = "Maykop Khanskaya - AAA",
@@ -534,11 +394,6 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Maykop Khanskaya\nMaykop-Khanskaya Sector - Grid EK84",
 	}
-	OperationClearFieldMkII_AG[71] = {				
-		TargetName = "Medvedovskaya - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Medvedovskaya\nKrasnodar-Center Sector - Grid EL02",
-	}
 	OperationClearFieldMkII_AG[72] = {				
 		TargetName = "Mineralnye Vody - AAA",
 		TargetStatic = false,
@@ -562,12 +417,12 @@ function SEF_InitializeMissionTable()
 	OperationClearFieldMkII_AG[76] = {				
 		TargetName = "Mineralnye Vody - SA-18",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Anti-Air Infantry Located At Mineralnye Vody\nMineralnye Vody Sector - Grid LP49",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-8 and The Anti-Air Infantry Located At Mineralnye Vody\nMineralnye Vody Sector - Grid LP49",
 	}
 	OperationClearFieldMkII_AG[77] = {				
 		TargetName = "Mineralnye Vody - SA-6",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-6 Site Located At Mineralnye Vody\nMineralnye Vody Sector - Grid LP49",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-6 Site Located At Mineralnye Vody\nMineralnye Vody Sector - Grid LP19",
 	}
 	OperationClearFieldMkII_AG[78] = {				
 		TargetName = "Mineralnye Vody - Supply Truck",
@@ -664,11 +519,6 @@ function SEF_InitializeMissionTable()
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Submarines Docked At Novorossiysk Port\nNovorossiysk Sector - Grid DK05",
 	}
-	OperationClearFieldMkII_AG[97] = {				
-		TargetName = "Ochamchira - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Ochamchira\nOchamchira Sector - Grid FH93/GH03",
-	}
 	OperationClearFieldMkII_AG[98] = {				
 		TargetName = "Ochamchira - Armed Speedboat",
 		TargetStatic = false,
@@ -695,9 +545,9 @@ function SEF_InitializeMissionTable()
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Train Station Located At Ochamchira\nOchamchira Sector - Grid GH03",
 	}
 	OperationClearFieldMkII_AG[103] = {				
-		TargetName = "Oktyabrskoe - SA-2",
+		TargetName = "Beslan - SA-6",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Oktyabrskoe\nBeslan Sector - Grid MN86",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-6 Site Located At Beslan\nBeslan Sector - Grid MN67",
 	}
 	OperationClearFieldMkII_AG[104] = {				
 		TargetName = "Okumi - AAA",
@@ -730,9 +580,9 @@ function SEF_InitializeMissionTable()
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Okumi\nGali Sector - Grid GH23",
 	}
 	OperationClearFieldMkII_AG[110] = {				
-		TargetName = "Pashkovskiy - SA-15",
+		TargetName = "Industrial'nyy - SA-10",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-15 Located At Pashkovskiy\nKrasnodar-Pashkovsky Sector - Grid FK08",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-10 Located At Industrial'nyy\nKrasnodar-Pashkovsky Sector - Grid EK09",
 	}
 	OperationClearFieldMkII_AG[111] = {				
 		TargetName = "Pashkovskiy - SA-18",
@@ -745,49 +595,19 @@ function SEF_InitializeMissionTable()
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Pashkovskiy\nKrasnodar-Pashkovsky Sector - Grid FK08",
 	}
 	OperationClearFieldMkII_AG[113] = {				
-		TargetName = "Pervomayskiy - SA-2",
+		TargetName = "Tkvarcheli SA-2", 
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Pervomayskiy\nMaykop-Khanskaya Sector - Grid EK81",
-	}
-	OperationClearFieldMkII_AG[114] = {				
-		TargetName = "Petrovskaya - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Petrovskaya\nKrymsk Sector - Grid DL13",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Tkvarcheli\nTkvarcheli Sector - Grid GH24",
 	}
 	OperationClearFieldMkII_AG[115] = {				
-		TargetName = "Pitsunda - SA-2",
+		TargetName = "Ochamchira- SA-6", 
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Pitsunda\nGudauta Sector - Grid FH08",
-	}
-	OperationClearFieldMkII_AG[116] = {				
-		TargetName = "Plastunovskaya - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Plastunovskaya\nKrasnodar-Pashkovsky Sector - Grid EL22",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Ochamchira\nOchamchira Sector - Grid GH03",
 	}
 	OperationClearFieldMkII_AG[117] = {				
 		TargetName = "Ponezhukay - Communications",
 		TargetStatic = true,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Communications Tower Located At Ponezhukay\nKrasnodar-Pashkovsky Sector - Grid EK27",
-	}
-	OperationClearFieldMkII_AG[118] = {				
-		TargetName = "Ruisi - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Ruisi\nGori Sector - Grid MM15",
-	}
-	OperationClearFieldMkII_AG[119] = {				
-		TargetName = "Ruisi - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Ruisi\nGori Sector - Grid MM15",
-	}
-	OperationClearFieldMkII_AG[120] = {				
-		TargetName = "Ruisi - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artillery Assets Located At Ruisi\nGori Sector - Grid MM15",
-	}
-	OperationClearFieldMkII_AG[121] = {				
-		TargetName = "Ruisi - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Ruisi\nGori Sector - Grid MM15",
 	}
 	OperationClearFieldMkII_AG[122] = {				
 		TargetName = "Sochi - Cargo Ship",
@@ -842,87 +662,12 @@ function SEF_InitializeMissionTable()
 	OperationClearFieldMkII_AG[132] = {				
 		TargetName = "Sukhumi - SA-15",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-15 Located At Sukhumi\nSukhumi-Babushara Sector - Grid FH66",
-	}
-	OperationClearFieldMkII_AG[133] = {				
-		TargetName = "Sukhumi Babushara - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Sukhumi-Babushara Airfield\nSukhumi-Babushara Sector - Grid FH74",
-	}
-	OperationClearFieldMkII_AG[134] = {				
-		TargetName = "Suvorov Cherkesskiy - SA-3",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-3 Site Located North Of Suvorov-Cherkesskiy\nAnapa-Vityazevo Sector - Grid CK69",
-	}
-	OperationClearFieldMkII_AG[135] = {				
-		TargetName = "Tkvarcheli - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Tkvarcheli\nTkvarcheli Sector - Grid GH14",
-	}
-	OperationClearFieldMkII_AG[136] = {				
-		TargetName = "Tkvarcheli - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Tkvarcheli\nTkvarcheli Sector - Grid GH14",
-	}
-	OperationClearFieldMkII_AG[137] = {				
-		TargetName = "Tkvarcheli - Communications",
-		TargetStatic = true,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Communications Tower Located At Tkvarcheli\nTkvarcheli Sector - Grid GH14",
-	}
-	OperationClearFieldMkII_AG[138] = {				
-		TargetName = "Tkvarcheli - SA-13",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-13 Located At Tkvarcheli\nTkvarcheli Sector - Grid GH14",
-	}
-	OperationClearFieldMkII_AG[139] = {				
-		TargetName = "Tskhinvali - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[140] = {				
-		TargetName = "Tskhinvali - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[141] = {				
-		TargetName = "Tskhinvali - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artillery Assets Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[142] = {				
-		TargetName = "Tskhinvali - Military Barracks",
-		TargetStatic = true,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Military Barracks Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[143] = {				
-		TargetName = "Tskhinvali - Military HQ",
-		TargetStatic = true,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Military Headquarters Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[144] = {				
-		TargetName = "Tskhinvali - SA-15",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-15 Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[145] = {				
-		TargetName = "Tskhinvali - SA-8",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-8 Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
-	}
-	OperationClearFieldMkII_AG[146] = {				
-		TargetName = "Tskhinvali - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Tskhinvali\nTskhinvali Sector - Grid MM17",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy 2 SA-15 Located At Sukhumi\nSukhumi-Babushara Sector - Grid FH66",
 	}
 	OperationClearFieldMkII_AG[147] = {				
-		TargetName = "Udarnyy - SA-2",
+		TargetName = "Gorny - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Udarnyy\nMineralnye Vody Sector - Grid LQ01",
-	}
-	OperationClearFieldMkII_AG[148] = {				
-		TargetName = "Varvarovka - EWR",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Varvarovka\nAnapa-Vityazevo Sector - Grid CK76",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA- Site Located At Gorny\nMineralnye Vody Sector - Grid LP58",
 	}
 	OperationClearFieldMkII_AG[149] = {				
 		TargetName = "Veseloe - EWR",
@@ -930,34 +675,9 @@ function SEF_InitializeMissionTable()
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Early Warning Radar Located At Veseloe\nSochi-Adler Sector - Grid EJ80",
 	}
 	OperationClearFieldMkII_AG[150] = {				
-		TargetName = "Zaragizh - SA-2",
+		TargetName = "Sukhumi - SA-2",
 		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Zaragizh\nNalchik Sector - Grid LN99",
-	}
-	OperationClearFieldMkII_AG[151] = {				
-		TargetName = "Zemo Azhara - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Zemo-Azhara\nZemo-Azhara Sector - Grid GH27",
-	}
-	OperationClearFieldMkII_AG[152] = {				
-		TargetName = "Zemo Azhara - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Zemo-Azhara\nZemo-Azhara Sector - Grid GH27",
-	}
-	OperationClearFieldMkII_AG[153] = {				
-		TargetName = "Zemo Azhara - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artillery Assets Located At Zemo-Azhara\nZemo-Azhara Sector - Grid GH27",
-	}
-	OperationClearFieldMkII_AG[154] = {				
-		TargetName = "Zemo Azhara - SA-19",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-19 Located At Zemo-Azhara\nZemo-Azhara Sector - Grid GH27",
-	}
-	OperationClearFieldMkII_AG[155] = {				
-		TargetName = "Zemo Azhara - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Zemo-Azhara\nZemo-Azhara Sector - Grid GH27",
+		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-2 Site Located At Sukhumi\nSukhumi-Babushara Sector - Grid FH74",
 	}
 	OperationClearFieldMkII_AG[156] = {				
 		TargetName = "Zeni - AAA",
@@ -988,36 +708,6 @@ function SEF_InitializeMissionTable()
 		TargetName = "Red October",
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Search And Destroy The Red October!\nThe Black Sea Sector - Grid Reference Unknown",
-	}
-	OperationClearFieldMkII_AG[162] = {				
-		TargetName = "Ochamchira - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Ochamchira\nOchamchira Sector - Grid GH03",
-	}
-	OperationClearFieldMkII_AG[163] = {				
-		TargetName = "Dzevera - SA-19",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The SA-19 Located At Dzevera\nGori Sector - Grid MM26",
-	}
-	OperationClearFieldMkII_AG[164] = {				
-		TargetName = "Dzevera - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Dzevera\nGori Sector - Grid MM26",
-	}
-	OperationClearFieldMkII_AG[165] = {				
-		TargetName = "Dzevera - Artillery",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy Artillery Assets Located At Dzevera\nGori Sector - Grid MM26",
-	}
-	OperationClearFieldMkII_AG[166] = {				
-		TargetName = "Dzevera - Armor",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Dzevera\nGori Sector - Grid MM26",
-	}
-	OperationClearFieldMkII_AG[167] = {				
-		TargetName = "Dzevera - Supply Truck",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Supply Trucks Located At Dzevera\nGori Sector - Grid MM26",
 	}
 	OperationClearFieldMkII_AG[168] = {				
 		TargetName = "Sakasheti - Processing Plant",
@@ -1148,11 +838,6 @@ function SEF_InitializeMissionTable()
 		TargetName = "Saberio - Armor",
 		TargetStatic = false,
 		TargetBriefing = "Mission Update \nPrimary Objective - Destroy The Armored Vehicles Located At Saberio\nZugdidi Sector - Grid GH42",
-	}
-	OperationClearFieldMkII_AG[194] = {				
-		TargetName = "Saberio - AAA",
-		TargetStatic = false,
-		TargetBriefing = "Mission Update \nPrimary Objective - Destroy AAA Assets Located At Saberio\nZugdidi Sector - Grid GH42",
 	}
 	OperationClearFieldMkII_AG[195] = {				
 		TargetName = "Saberio - Supply Truck",
@@ -1535,7 +1220,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 										{
 											[1] = 
 											{
-												["alt"] = 7000,
+												["alt"] = 10000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 222.22222222222,
@@ -1559,7 +1244,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [1]
 											[2] = 
 											{
-												["alt"] = 7000,
+												["alt"] = 10000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 222.22222222222,
@@ -1706,7 +1391,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [2]
 											[3] = 
 											{
-												["alt"] = 7000,
+												["alt"] = 10000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 222.22222222222,
@@ -1730,7 +1415,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 																		["id"] = "Orbit",
 																		["params"] = 
 																		{
-																			["altitude"] = 7000,
+																			["altitude"] = 28000,
 																			["pattern"] = "Race-Track",
 																			["speed"] = 222.22222222222,
 																			["speedEdited"] = true,
@@ -1755,7 +1440,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [3]
 											[4] = 
 											{
-												["alt"] = 7000,
+												["alt"] = 10000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 222.22222222222,
@@ -1779,7 +1464,7 @@ function SEF_USAEFCAPSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [4]
 											[5] = 
 											{
-												["alt"] = 7000,
+												["alt"] = 10000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 222.22222222222,
@@ -1880,7 +1565,7 @@ function SEF_USAEFSEADSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 										{
 											[1] = 
 											{
-												["alt"] = 6000,
+												["alt"] = 9500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 219.44444444444,
@@ -1904,7 +1589,7 @@ function SEF_USAEFSEADSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [1]
 											[2] = 
 											{
-												["alt"] = 6000,
+												["alt"] = 9500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 219.44444444444,
@@ -2046,7 +1731,7 @@ function SEF_USAEFSEADSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [2]
 											[3] = 
 											{
-												["alt"] = 6000,
+												["alt"] = 9500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 219.44444444444,
@@ -2070,7 +1755,7 @@ function SEF_USAEFSEADSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [3]
 											[4] = 
 											{
-												["alt"] = 6000,
+												["alt"] = 9500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 219.44444444444,
@@ -2176,7 +1861,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 										{
 											[1] = 
 											{
-												["alt"] = 3500,
+												["alt"] = 8500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["properties"] = 
@@ -2187,7 +1872,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													["angle"] = 0,
 													["steer"] = 2,
 												}, -- end of ["properties"]
-												["speed"] = 155.55555555556,
+												["speed"] = 220,
 												["task"] = 
 												{
 													["id"] = "ComboTask",
@@ -2208,7 +1893,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [1]
 											[2] = 
 											{
-												["alt"] = 3500,
+												["alt"] = 8500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["properties"] = 
@@ -2219,7 +1904,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													["angle"] = 0,
 													["steer"] = 2,
 												}, -- end of ["properties"]
-												["speed"] = 155.55555555556,
+												["speed"] = 220,
 												["task"] = 
 												{
 													["id"] = "ComboTask",
@@ -2349,7 +2034,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													}, -- end of ["params"]
 												}, -- end of ["task"]
 												["type"] = "Turning Point",
-												["ETA"] = 50.97769941928,
+												["ETA"] = 220,
 												["ETA_locked"] = false,
 												["y"] = WP1Y,
 												["x"] = WP1X,
@@ -2358,7 +2043,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [2]
 											[3] = 
 											{
-												["alt"] = 2000,
+												["alt"] = 7500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["properties"] = 
@@ -2369,7 +2054,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													["angle"] = 0,
 													["steer"] = 2,
 												}, -- end of ["properties"]
-												["speed"] = 155.55555555556,
+												["speed"] = 220,
 												["task"] = 
 												{
 													["id"] = "ComboTask",
@@ -2390,9 +2075,9 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 																		["id"] = "Orbit",
 																		["params"] = 
 																		{
-																			["altitude"] = 3500,
+																			["altitude"] = 7500,
 																			["pattern"] = "Race-Track",
-																			["speed"] = 155.55555555556,
+																			["speed"] = 220,
 																			["speedEdited"] = true,
 																		}, -- end of ["params"]
 																	}, -- end of ["task"]
@@ -2406,7 +2091,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													}, -- end of ["params"]
 												}, -- end of ["task"]
 												["type"] = "Turning Point",
-												["ETA"] = 265.03232675467,
+												["ETA"] = 220,
 												["ETA_locked"] = false,
 												["y"] = WP2Y,
 												["x"] = WP2X,
@@ -2415,7 +2100,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [3]
 											[4] = 
 											{
-												["alt"] = 2000,
+												["alt"] = 8500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["properties"] = 
@@ -2426,7 +2111,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													["angle"] = 0,
 													["steer"] = 2,
 												}, -- end of ["properties"]
-												["speed"] = 155.55555555556,
+												["speed"] = 220,
 												["task"] = 
 												{
 													["id"] = "ComboTask",
@@ -2438,7 +2123,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													}, -- end of ["params"]
 												}, -- end of ["task"]
 												["type"] = "Turning Point",
-												["ETA"] = 349.12890903278,
+												["ETA"] = 220,
 												["ETA_locked"] = false,
 												["y"] = WP3Y,
 												["x"] = WP3X,
@@ -2447,7 +2132,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [4]
 											[5] = 
 											{
-												["alt"] = 3500,
+												["alt"] = 8500,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["properties"] = 
@@ -2458,7 +2143,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													["angle"] = 0,
 													["steer"] = 2,
 												}, -- end of ["properties"]
-												["speed"] = 155.55555555556,
+												["speed"] = 220,
 												["task"] = 
 												{
 													["id"] = "ComboTask",
@@ -2470,7 +2155,7 @@ function SEF_USAEFCASSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 													}, -- end of ["params"]
 												}, -- end of ["task"]
 												["type"] = "Turning Point",
-												["ETA"] = 564.44241411897,
+												["ETA"] = 220,
 												["ETA_locked"] = false,
 												["y"] = WP4Y,
 												["x"] = WP4X,
@@ -2558,7 +2243,7 @@ function SEF_USAEFASSSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 										["points"] = {
 											[1] = 
 											{
-												["alt"] = 5000,
+												["alt"] = 9000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 231.59317779244,
@@ -2724,7 +2409,7 @@ function SEF_USAEFASSSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [1]
 											[2] = 
 											{
-												["alt"] = 5000,
+												["alt"] = 9000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 231.59317779244,
@@ -2748,7 +2433,7 @@ function SEF_USAEFASSSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [2]
 											[3] = 
 											{
-												["alt"] = 5000,
+												["alt"] = 9000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 231.59317779244,
@@ -2794,7 +2479,7 @@ function SEF_USAEFASSSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [3]
 											[4] = 
 											{
-												["alt"] = 5000,
+												["alt"] = 9000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 231.59317779244,
@@ -2818,7 +2503,7 @@ function SEF_USAEFASSSPAWN(DepartureAirbaseName, DestinationAirbaseName)
 											}, -- end of [4]
 											[5] = 
 											{
-												["alt"] = 5000,
+												["alt"] = 9000,
 												["action"] = "Turning Point",
 												["alt_type"] = "BARO",
 												["speed"] = 231.59317779244,

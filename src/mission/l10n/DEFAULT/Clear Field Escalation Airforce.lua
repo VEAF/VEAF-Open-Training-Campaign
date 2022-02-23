@@ -62,8 +62,8 @@ RedRespawnTimerInitialMax = 450
 
 BlueRespawnTimerMin = 600
 BlueRespawnTimerMax = 1200
-RedRespawnTimerMin  = 900
-RedRespawnTimerMax  = 1500
+RedRespawnTimerMin  = 600
+RedRespawnTimerMax  = 1200
 
 RedFlightLevelMin = 6
 RedFlightLevelMax = 11

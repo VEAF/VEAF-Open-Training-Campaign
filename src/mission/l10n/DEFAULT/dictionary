@@ -5,6 +5,88 @@ dictionary = {
     ["DictKey_ActionText_10701"] = "return VEAF_DYNAMIC_PATH==nil",
     ["DictKey_ActionText_10801"] = "return VEAF_DYNAMIC_MISSIONPATH~=nil",
     ["DictKey_ActionText_10901"] = "return VEAF_DYNAMIC_MISSIONPATH==nil",
+    ["DictKey_ActionText_1939"] = "L'aeroport de Sochi-Adler est libéré.\
+\
+Les alliés envoient un C-17 de Kobuleti pour capturer la zone.",
+    ["DictKey_ActionText_1941"] = "Le C-17 à destination de Sochi à été détruit.\
+\
+Les alliés enverront un autre avion dans 5m.",
+    ["DictKey_ActionText_1943"] = "Un C-17 va partir de Kobuleti pour capturer la zone de Sochi-Adler.\
+\
+Protégez le.",
+    ["DictKey_ActionText_1945"] = "Le C-17 à destination de Sochi à été détruit.\
+\
+Les alliés enverront un dernier avion dans 10m.",
+    ["DictKey_ActionText_1947"] = "Un dernier C-17 va partir de Kobuleti a destination de la zone de Sochi-Adler.\
+\
+Vous devez assurez sa protection.",
+    ["DictKey_ActionText_1949"] = "Le dernier C-17 a destination de Sohi-Adler à été détruit.\
+\
+Les alliés ne sont plus en mesure d'envoyer de mission sur Sochi.",
+    ["DictKey_ActionText_1951"] = "Les Alliés ont capturés la zone de Sochi-Adler.\
+\
+L'aeroport est maintenant accessible.",
+    ["DictKey_ActionText_1952"] = "Objectif secondaire:\
+\
+Les Alliés envoient un C-130 de Kutaisi avec à son bord une équipe d'ingenieur.\
+\
+Ils ont pour objectif de réparer le site SA-2 proche de Sochi pour nous permettre de bénéficier d' une couverture SAM sur le secteur de Sochi-Adler.\
+\
+Assurez sa protection jusqu'a l'aerport de Sochi.",
+    ["DictKey_ActionText_1953"] = "Le C-130 a destination de Sochi à été détruit.\
+\
+Les Alliés ne sont plus en mesure de réparer le Site SA-2.\
+",
+    ["DictKey_ActionText_1955"] = "Le C-130 s'est posé sur Sochi.\
+\
+Les ingenieurs se dirigents vers la zone du site Sa-2.\
+\
+Ils seront sur zone dans 10m.\
+",
+    ["DictKey_ActionText_1957"] = "Les ingenieurs ont réparés le Site Sa-2 proche de l'aeroport de Sochi.\
+\
+Nous bénéficions maintenant d'une couverture SAM sur le Secteur de Sochi-Adler.",
+    ["DictKey_ActionText_1958"] = "L'aeroport de Nalchik est libéré.\
+\
+Les alliés envoient un C-17 de Kobuleti pour capturer la zone.",
+    ["DictKey_ActionText_1960"] = "Le C-17 à destination de Nalchik à été détruit.\
+\
+Les alliés enverront un autre avion dans 5m.",
+    ["DictKey_ActionText_1962"] = "Un C-17 va partir de KobuletI pour capturer la zone de Nalchik.\
+\
+Protégez le.",
+    ["DictKey_ActionText_1964"] = "Le C-17 à destination de Nalchiik à été détruit.\
+\
+Les alliés enverront un dernier avion dans 10m.",
+    ["DictKey_ActionText_1966"] = "Un dernier C-17 va partir de Kobuleti a destination de la zone de Nalchik\
+\
+Vous devez assurez sa protection.",
+    ["DictKey_ActionText_1968"] = "Le dernier C-17 a destination de Nalchik à été détruit.\
+\
+Les alliés ne sont plus en mesure d'envoyer de mission sur Sochi.",
+    ["DictKey_ActionText_1970"] = "Les Alliés ont capturés la zone de Nalchik.\
+\
+L'aeroport est maintenant accessible.",
+    ["DictKey_ActionText_1971"] = "Objectif secondaire:\
+\
+Les Alliés envoient un C-130 de Kutaisi avec à son bord une équipe d'ingenieur.\
+\
+Ils ont pour objectif de réparer le site SA-2 proche de Nalchik pour nous permettre de bénéficier d' une couverture SAM sur le secteur.\
+\
+Assurez sa protection jusqu'a l'aerport de Nalchik.",
+    ["DictKey_ActionText_1972"] = "Le C-130 a destination de Nalchik à été détruit.\
+\
+Les Alliés ne sont plus en mesure de réparer le Site SA-2 de Nartan.\
+",
+    ["DictKey_ActionText_1974"] = "Le C-130 s'est posé sur Nalchik.\
+\
+Les ingenieurs se dirigents vers la zone du site Sa-2 Nartan.\
+\
+Ils seront sur zone dans 10m.\
+",
+    ["DictKey_ActionText_1976"] = "Les ingenieurs ont réparés le Site Sa-2 Nartan proche de l'aeroport de Nalchik.\
+\
+Nous bénéficions maintenant d'une couverture SAM sur le Secteur.",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
@@ -35,21 +117,17 @@ Actifs tactiques comme suit...\
 AWACS\
 \
 Darkstar - E-3A\
-Frequency: 282.2.000 AM\
-\
-Carrier Strike Group\
+Frequency: 280 AM\
 \
 CVN-72 Abraham Lincoln\
-Frequency: 227.000 AM\
+Frequency: 227 AM\
 TCN: 12X\
-ICLS: 7\
+ICLS: 2\
 \
 LHA-1 Tarawa\
-Frequency: 226.000 AM\
+Frequency: 226 AM\
 TCN: 11X\
 ICLS: 8\
-\
-Refuelling\
 \
 Texaco - KC-135MPRS\
 Frequency: 290.1 AM\
@@ -63,8 +141,6 @@ Arco - S-3B\
 Frequency: 290.5 MHz AM\
 TCN: 64Y\
 \
-Aerial JTAC\
-\
 Pontiac-9-1 - MQ-9 Reaper Aerial Drone\
 Frequency: 272 Mhz AM\
 \
@@ -73,6 +149,6 @@ FARPS\
 London: 101 MHz AM\
 Paris: 102 MHz AM\
 \
-Be Advised Bullseye Calls Are Referencing Zugdidi.",
+",
     ["DictKey_sortie_5"] = "CF-2 by Sharko",
 } -- end of dictionary

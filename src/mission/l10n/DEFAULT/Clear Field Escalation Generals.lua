@@ -42,10 +42,10 @@ USAFNavyAdmiralName			= "Admiral Michael Gilday"
 SyAAFCICName				= "Bashar al-Assad"
 SyAAFAirforceGeneralName	= "General Issam Hallaq"
 
-BlueStrikeFrequencyMin 	= 1200	
-BlueStrikeFrequencyMax 	= 2400	
-RedStrikeFrequencyMin 	= 1200	
-RedStrikeFrequencyMax 	= 2400
+BlueStrikeFrequencyMin 	= 900	
+BlueStrikeFrequencyMax 	= 2200	
+RedStrikeFrequencyMin 	= 900	
+RedStrikeFrequencyMax 	= 2200
 
 SYAAFAN26BGROUPNAME = ""
 IRIAFMI8GROUPNAME = ""
@@ -3297,7 +3297,7 @@ timer.scheduleFunction(SEF_BLUEGENERAL_ATTACKAIRBASE, 53, timer.getTime() + math
 SEF_LANDINGHANDLER = {}
 function SEF_LANDINGHANDLER:onEvent(Event)
 
-	if Event.id == world.event.S_EVENT_LAND then				
+	if Event.id == world.event.S_EVENT_LAND  then				
 		if Event.initiator then			
 			local LandedUnit 			= Event.initiator						--The unit object that landed
 			local LandedUnitName 		= Event.initiator:getName() 			--The unit name
@@ -3311,15 +3311,15 @@ function SEF_LANDINGHANDLER:onEvent(Event)
 				LandedPlace				= nil
 			end
 						
-			if (LandedUnitCoalition == 1) then																					--Red Air Landed				
-				if string.find(LandedUnitGroupName, "VVS An%-26B") then
+			if (LandedUnitCoalition == 1) and false then																					--Red Air Landed				
+				if string.find(LandedUnitGroupName, "VVS An%-26B") and false then
 					if ( LandedPlace ~= nil ) then											
 						trigger.action.outText("A Russian "..LandedUnitTypeName.." Landed At "..LandedPlace, 15)
 						SEF_CAPAIRBASE(LandedPlace, LandedUnitCoalition)
 					else
 						trigger.action.outText("A Russian "..LandedUnitTypeName.." Has Landed", 15)
 					end										
-				elseif string.find(LandedUnitGroupName, "VVS Mi%-8MTV2") then
+				elseif string.find(LandedUnitGroupName, "VVS Mi%-8MTV2") and false then
 					if ( LandedPlace ~= nil ) then
 						trigger.action.outText("A Russian "..LandedUnitTypeName.." Has Landed At "..LandedPlace,15) 
 						SEF_CAPAIRBASEWITHHELO(LandedUnitName, LandedUnitCoalition)
@@ -3328,7 +3328,7 @@ function SEF_LANDINGHANDLER:onEvent(Event)
 						SEF_CAPAIRBASEWITHHELO(LandedUnitName, LandedUnitCoalition)
 					end					
 				else
-					if ( LandedPlace ~= nil ) then											
+					if ( LandedPlace ~= nil ) and false then											
 						trigger.action.outText("An "..LandedUnitTypeName.." Has Landed At "..LandedPlace,15)					
 					end
 				end
@@ -3349,13 +3349,13 @@ function SEF_LANDINGHANDLER:onEvent(Event)
 						SEF_CAPAIRBASEWITHHELO(LandedUnitName, LandedUnitCoalition)
 					end				
 				else
-					if ( LandedPlace ~= nil ) then
+					if ( LandedPlace ~= nil ) and false then
 						trigger.action.outText("An "..LandedUnitTypeName.." Has Landed At "..LandedPlace,15)
 					else
 					end	
 				end			
 			else																												--Neutral Air Landed
-				if ( LandedPlace ~= nil ) then
+				if ( LandedPlace ~= nil ) and false then
 					trigger.action.outText("An "..LandedUnitTypeName.." Has Landed At "..LandedPlace,15)
 				else
 					trigger.action.outText("An "..LandedUnitTypeName.." Has Landed", 15)
@@ -3397,13 +3397,13 @@ function SEF_CRASHEDHANDLER:onEvent(Event)
 					trigger.action.outSound('AA Kill ' .. RandomAAKillSound .. '.ogg')
 				end
 
-				if string.find(CrashedUnitGroupName, "VVS An%-26B") then
+				if string.find(CrashedUnitGroupName, "VVS An%-26B") and false then
 					trigger.action.outText("A Russian Antonov An-26B Has Crashed!", 15)					
-				elseif string.find(CrashedUnitGroupName, "VVS Mi%-8MTV2") then
+				elseif string.find(CrashedUnitGroupName, "VVS Mi%-8MTV2") and false then
 					trigger.action.outText("A Russian Mi-8MTV2 Has Crashed!", 15)					
 				else
 				end
-			elseif ( CrashedUnitCoalition == 2 ) then 												-- Allied Plane Down
+			elseif ( CrashedUnitCoalition == 2 ) and false then												-- Allied Plane Down
 				--trigger.action.outText("A " .. CrashedUnitTypeName .. " Has Been Destroyed!",15)
 				
 				if CustomSoundsEnabled == 1 then
@@ -3427,7 +3427,7 @@ world.addEventHandler(SEF_CRASHEDHANDLER)
 SEF_KILLEDHANDLER = {}
 function SEF_KILLEDHANDLER:onEvent(Event)
 
-	if Event.id == world.event.S_EVENT_KILL then
+	if Event.id == world.event.S_EVENT_KILL and false then
 		if Event.initiator then	
 			local KillerUnit 				= Event.initiator
 			local KillerUnitName 			= Event.initiator:getName()
@@ -3518,7 +3518,7 @@ world.addEventHandler(SEF_BASECAPTUREDEVENTHANDLER)
 
 SEF_SHOTHANDLER = {}
 function SEF_SHOTHANDLER:onEvent(Event)
-	if Event.id == world.event.S_EVENT_SHOT then
+	if Event.id == world.event.S_EVENT_SHOT  then
 		if Event.initiator then
 			local ShootingUnit						= Event.initiator
 			local ShootingUnitName					= Event.initiator:getName()
@@ -3535,7 +3535,7 @@ function SEF_SHOTHANDLER:onEvent(Event)
 				if ( ShootingUnitCoalition == 2 ) then
 					--MISSILES		
 					if ( ShotWeaponCategory == 1 ) then --Missile, any type		
-						if ( ShotWeaponMissileCategory == 1 ) then -- 1 is A2A Missile "Fox"
+						if ( ShotWeaponMissileCategory == 1 ) and false then -- 1 is A2A Missile "Fox"
 								if ( ShotWeaponMissileGuidanceType == 4 ) then -- 4 is Fox 1, 2 is Fox 2, 3 is Fox 3
 									
 									--trigger.action.outText("Fox 1!", 15)				
@@ -3570,7 +3570,7 @@ function SEF_SHOTHANDLER:onEvent(Event)
 									end							
 								else
 								end
-						elseif ( ShotWeaponMissileCategory == 4 ) then --4 for Anti-Ship Missile "Bruiser"
+						elseif ( ShotWeaponMissileCategory == 4 ) and false then --4 for Anti-Ship Missile "Bruiser"
 							
 							--trigger.action.outText("Bruiser!", 15)
 							
@@ -3582,7 +3582,7 @@ function SEF_SHOTHANDLER:onEvent(Event)
 							--else
 							--end
 							
-						elseif ( ShotWeaponMissileCategory == 6 ) then --6 for Other Missile "Rifle" (Maverick, HARM, Harpoon) -- Need to work out how to distinguish between anti-rad 'magnum' and anti-ship 'bruiser'
+						elseif ( ShotWeaponMissileCategory == 6 ) and false then --6 for Other Missile "Rifle" (Maverick, HARM, Harpoon) -- Need to work out how to distinguish between anti-rad 'magnum' and anti-ship 'bruiser'
 							
 							--trigger.action.outText("Weapon: "..ShotWeaponName, 15)
 							
@@ -3651,13 +3651,13 @@ function SEF_SHOTHANDLER:onEvent(Event)
 						else
 						end
 					--////ROCKETS	
-					elseif ( ShotWeaponCategory == 2 ) then --Rockets, any type
+					elseif ( ShotWeaponCategory == 2 ) and false then --Rockets, any type
 						--Brevity Call Nails ... I think
 						--Probably best not to do rockets as so many get fired
 						--trigger.action.outText("Nails!", 15)
 						
 					--////BOMBS	
-					elseif ( ShotWeaponCategory == 3 ) then --Bomb, any type
+					elseif ( ShotWeaponCategory == 3 ) and false then --Bomb, any type
 						
 						--trigger.action.outText("Pickle!", 15)
 						
@@ -3669,7 +3669,7 @@ function SEF_SHOTHANDLER:onEvent(Event)
 						end		
 						
 					--////SHELLS
-					elseif ( ShotWeaponCategory == 0 ) then --Shell, any type
+					elseif ( ShotWeaponCategory == 0 ) and false then --Shell, any type
 						--No Brevity Call
 						--trigger.action.outText("Shell!", 15)	
 					else
@@ -3710,7 +3710,7 @@ function SEF_ONDEADEVENTHANDLER:onEvent(Event)
 					local DeadUnitCoalition 	 = Event.initiator:getCoalition()
 					local DeadUnitName			 = Event.initiator:getName()
 					
-					if ( DeadUnitCoalition == 1 ) then													-- RED ONLY AT THIS STAGE	
+					if ( DeadUnitCoalition == 1 ) and false then													-- RED ONLY AT THIS STAGE	
 						if ( DeadUnitObjectCategory == 1 ) then 										-- UNIT
 							if ( DeadUnitCategory == 2 or DeadUnitCategory == 3 ) then 					-- GROUND_UNIT or SHIP
 								if ( string.find(DeadUnitName, "Russian APC Tigr 233036") ) then  
